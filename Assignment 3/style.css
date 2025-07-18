@@ -1,0 +1,60 @@
+/* Reset and base */
+body {
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #419a61;
+    color: #111111;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin-top: 1rem;
+
+  }
+  
+  .poster {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .poster img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .text {
+    position: absolute;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    top: 20%;
+    left: 10%;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px #000;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+  }
+  
+  nav li {
+    margin: 0.5rem 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #d7007f;
+    font-weight: bold;
+  }
+  
+  footer {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #051107;
+  }
+  
